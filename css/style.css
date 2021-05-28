@@ -3,7 +3,7 @@
  	padding: 0;
  }
 body{
-	background-color: rgb(138, 124, 151);
+	background-color: black;
 }
  html,body{
  	height: 100%;
@@ -14,7 +14,7 @@ form{
 	background-color: rgb(130, 134, 133);
 	margin: 10px auto;
 	padding: 20px;
-	border: 10px solid rgb(39, 35, 35);
+	border: 10px solid rgb(104, 47, 47);
 	text-align: center;
 }
 

@@ -51,13 +51,19 @@ form select{
 		margin-top:30px ;
 		padding: 10px 13px;
 		display: inline-block;
+		border: 2px solid black;
+		color:rgb(101, 113, 100)
+}
+form select:hover{
+	outline: 0;
+	border: 0;
 }
  
 form h2{
 	margin-top: 10px;
 }
 
-form input[type=date]{
+form input[type=date]:focus, form select:focus{
 	width: calc(80% + 26px);
 	margin: 10px;
 }
@@ -65,9 +71,33 @@ form h2{
 	margin: 20px;
 }
 
-.radio-input{
+.radio-input, .chekbox{
 	display: inline-block;
 	margin: 15px;
 	text-align: left;
 	font-size: 20px;
+}
+
+form input[type=submit]{
+	cursor:pointer;
+	width: 130px;
+	height: 50px;
+	color: rgb(255, 255, 255);
+	margin: 30px;
+	border: 5px solid rgb(15, 13, 16);
+	background-color: rgb(169, 176, 176);
+}
+.input span{
+	margin-left: 13px;
+	font-size: 50px;
+	color: chocolate;
+
+
+}
+form textarea{
+	border:1px solid #ccc;
+	margin-top: 30px;
+	width: 80%;
+	padding: 10px 13px;
+	resize:none;
 }

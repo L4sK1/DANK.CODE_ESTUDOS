@@ -2,12 +2,12 @@
  	margin:0;
  	padding: 0;
  }
-body{
-	background-color: rgb(216, 200, 200);
+
 }
  html,body{
  	height: 100%;
  }
+ /*
 
  input[type=file]{
 	 display: none;
@@ -48,6 +48,23 @@ form select{
 	cursor: pointer;
 }
 
+
+
+select::-ms-expand{
+	display: none;
+}
+*/
+
+input [type=checkbox]{
+	display:none;
+}
+
+input[type=checkbox]:checked + label{
+	 width: 30px;
+	 height: 30px;
+	 background-color:blueviolet;
+
+}
 form{
 	text-align: center;
 	margin: 50px auto;
@@ -56,7 +73,10 @@ form{
 	background-color:black;
 	padding:10px;	
 }
-
-select::-ms-expand{
-	display: none;
+label{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin: 0 30px;
+	background-color: cadetblue;
 }

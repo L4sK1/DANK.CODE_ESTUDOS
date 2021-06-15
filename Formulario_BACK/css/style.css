@@ -25,9 +25,9 @@ label{
 	font-size: 19px;
 	background-image: url('../imagens/seta.png');
 	background-repeat: no-repeat;
-	background-position: 50px 10px;
+	background-position: 450px 19px;
+	background-size: 50px 35px;
 	
-	background-size: 50px 50px;
 }
 
 form select{
@@ -44,7 +44,7 @@ form select{
 	background-size: 20px 20px;
 	background-repeat: no-repeat;
 	padding-left: 12px;
-	background-position: 135px 19px;
+	background-position: 140px 30px;
 	cursor: pointer;
 }
 

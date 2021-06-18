@@ -2,81 +2,15 @@
  	margin:0;
  	padding: 0;
  }
-
-}
- html,body{
- 	height: 100%;
- }
- /*
-
- input[type=file]{
-	 display: none;
- }
-label{
-	width: 500px;
-	height: 50px;
-	background-color: rgb(255, 255, 255);
-	color: blue;
-	text-align: center;
-	line-height: 50px;
-	display:block;
-	cursor: pointer;
-	margin: 20px auto;
-	font-size: 19px;
-	background-image: url('../imagens/seta.png');
-	background-repeat: no-repeat;
-	background-position: 450px 19px;
-	background-size: 50px 35px;
+@font-face {
+	font-family:"teste" ;
+	src: url('../fonts/DancingScript-VariableFont_wght.ttf');
 	
 }
 
-form select{
+ html,body{
+ 	height: 100%;
+	 font-family: "teste" ;
+	 font-size: 20px;
+ }
 
-	margin:20px auto;
-	height: 50px;
-	width: 160px;
-	text-align: center;
-	appearance: none;
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	border: 0;
-	background-image: url('../imagens/seta.png');
-	background-size: 20px 20px;
-	background-repeat: no-repeat;
-	padding-left: 12px;
-	background-position: 140px 30px;
-	cursor: pointer;
-}
-
-
-
-select::-ms-expand{
-	display: none;
-}
-*/
-
-input [type=checkbox]{
-	display:none;
-}
-
-input[type=checkbox]:checked + label{
-	 width: 30px;
-	 height: 30px;
-	 background-color:blueviolet;
-
-}
-form{
-	text-align: center;
-	margin: 50px auto;
-	width: 100%;¨
-	height: 280px;
-	background-color:black;
-	padding:10px;	
-}
-label{
-	width: 30px;
-	height: 30px;
-	display: inline-block;
-	margin: 0 30px;
-	background-color: cadetblue;
-}

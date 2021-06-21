@@ -89,7 +89,8 @@ section.sobre{
 .texto-sobre h1{
     font-family: '2';
     letter-spacing: 3px;
-    font-size: 38px;
+    margin-top: 40px;
+    font-size: 28px;
 }
 
 span{
@@ -97,5 +98,23 @@ span{
     letter-spacing: 3px;
     font-size: 38px;
     color:#017143;
+}
+.texto-sobre p{
+    margin:20px 0;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre button{
+    border:0;
+    background-color: #017143;
+    color:white;
+    border-radius:10px;
+    width:100px;
+    height:30px;
+    cursor: pointer;
+
 }
 

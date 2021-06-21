@@ -72,5 +72,30 @@ section.sobre{
     
 }
 
-.social-media
+.social-media{
+        
+    position: absolute;
+    right: 0;
+    padding: 10px;
+
+}
+
+.social-media img{
+    display: block;
+    margin: 20px;
+    width: 15px;
+}
+
+.texto-sobre h1{
+    font-family: '2';
+    letter-spacing: 3px;
+    font-size: 38px;
+}
+
+span{
+     font-family: '2';
+    letter-spacing: 3px;
+    font-size: 38px;
+    color:#017143;
+}
 

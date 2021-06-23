@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     background-repeat: no-repeat;
+    font-family: 'Quicksand', sans-serif;
 }
-body{
-    overflow-x: hidden;
+html,body{
+    height: 100%;
+   
 }
 
 .center{
@@ -17,7 +19,7 @@ body{
 .header{
     width: 100%;
     height: 90px;
-    background-color: rgb(170, 183, 198);
+    background-color: rgb(34, 58, 87);
 }
 
 .header img{
@@ -29,7 +31,96 @@ body{
 
 .container-banner{
     width: 100%;
-    height: 557px;
+    height: 507px;
     background-image: url('../img/header_bg.png');
-   
+    background-size: cover;
+    background-position: center;
+}
+.container-banner > .center{
+    height: 100%;
+    
+}
+.form{
+    padding: 12px;
+    width: 400px;
+    height: calc(100% + 30px);
+    float: right;
+    position: relative;
+    top: -15px;
+    margin-right: 80px;
+    background-size: cover;
+    background-color: rgb(34, 34, 53);
+    border: 6px solid #ccc;
+    
+    
+}
+
+.form > h2{
+    text-align: center;
+    font-weight: normal;
+    margin: 10px auto;
+    color: #999999;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.input-container{
+    margin-top: 20px;
+    color: antiquewhite;
+    width: 100%;
+    padding: 2px;
+  
+}
+
+.input-container span{
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+   width: 100%;
+   margin: 5px;
+}
+
+.input-container input[type=text]{
+    width: 344px;
+    height: 36px;
+}
+
+.input-container input[type=tel]{
+    width: 344px;
+    height: 36px;
+}
+
+ .warning{
+    color: antiquewhite;
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+   width: 100%;
+   margin-top: 20px;
+
+}
+
+.input-acao input[type=submit]{
+    width: 100%;
+    height:60px;
+    color: rgb(18, 19, 19);
+    font-weight: bold;
+    margin-top: 20px;
+    display:inline-block;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+.form input[type=submit]:hover{
+    background-color: rgb(143, 126, 126);
+}
+
+.form input[type=tel]:hover{
+    background-color: rgb(143, 126, 126);
+}
+.form input[type=text]:hover{
+    background-color: rgb(143, 126, 126);
 }

@@ -4,15 +4,15 @@
     box-sizing: border-box;
     background-repeat: no-repeat;
     font-family: 'Quicksand', sans-serif;
+  
 }
 html,body{
     height: 100%;
 
-   
 }
 
 .center{
-    width: 100%;
+    width: 1200px;
     margin: 0 auto;
 
 }
@@ -21,6 +21,8 @@ html,body{
     width: 100%;
     height: 90px;
     background-color: rgb(34, 58, 87);
+    min-width: 1200px;
+    
 }
 
 .header img{
@@ -36,6 +38,10 @@ html,body{
     background-image: url('../img/header_bg.png');
     background-size: cover;
     background-position: center;
+    
+    
+    
+
 }
 .container-banner > .center{
     height: 100%;
@@ -44,16 +50,18 @@ html,body{
 .form{
     padding: 12px;
     width: 400px;
-    height: calc(100% + 30px);
-    float: right;
+    height: calc(100% + 50px);
+    float: left;
     position: relative;
     top: -15px;
-    margin-right: 80px;
-    background-size: cover;
+    left: 290px;
+    margin-right: 90px;
+    background-size: auto;
     background-color: rgb(34, 34, 53);
     border: 6px solid #ccc;
-
-
+    cursor: pointer;
+    border: 8px solid rgba(128,120,120,0.7);
+    background-clip: border-box;
 
 }
 
@@ -68,7 +76,7 @@ html,body{
 
 .input-container{
     margin-top: 20px;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     width: 100%;
     padding: 2px;
   
@@ -117,12 +125,125 @@ html,body{
 }
 
 .form input[type=submit]:hover{
-    background-color: rgb(143, 126, 126);
+    background-color: rgb(160, 160, 160);
 }
 
 .form input[type=tel]:hover{
-    background-color: rgb(143, 126, 126);
+    background-color: rgb(171, 171, 171);
 }
 .form input[type=text]:hover{
-    background-color: rgb(143, 126, 126);
+    background-color: rgb(162, 162, 162);
+    color:#ccc;
 }
+
+.container-list{
+    float: left;
+    width: 519px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.3);
+    margin-top: 50px ;
+    padding: 30px;
+}
+
+.container-list ul{
+    list-style-position: inside;
+    padding: 30px;
+}
+
+.container-list ul li{
+    color: seashell;
+    padding: 10px;;
+}
+
+.container-2{
+    
+    padding:90px 0; 
+    background-color: rgb(200,200,190);
+    text-align: center;
+    min-width: 1200px;
+    
+}
+
+.container-2 h2{
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    text-align:justify ;
+    padding: 20px;
+    
+}
+
+.container-2 p{
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+    min-width: 1200px;
+    font-size: 20px;
+}
+.arrow{
+    width: 40px;
+    height: 40px;
+    background-image: url('../img/arrow.png');
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+    top: 110px;
+    
+}
+
+.section-1{
+    padding: 90px 0;
+    
+}
+
+.section-1 h2{
+    text-align: center;
+    color: rgb(84, 84, 86);
+    padding-bottom: 10px;
+}
+
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+    
+    
+   
+
+}
+
+.container-single{
+    float: left;
+    width: 20%;
+    padding: 20px;
+    
+   
+}
+
+.text-container-single{
+    text-align: justify;
+
+   
+}
+
+.container-single img{
+    width: 120px;
+    padding: 30px;
+}
+
+.footer{
+    border-top: 2px solid rgb(188, 185, 185);
+    padding: 15px 0;
+   
+}
+
+   .footer > p{
+       margin:10px;
+       text-align: center;
+       font-weight: bold;
+       
+   }
+
+.clear{
+    clear: both;
+}
+
